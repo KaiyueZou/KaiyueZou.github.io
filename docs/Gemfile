@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
-gem 'rspec'
+gem 'nokogiri' #added based on this website: https://bundler.io/
+gem 'rack', '~> 2.2.4' #same as above
+gem 'rspec' #same as above
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -34,3 +34,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+gem "webrick", "~> 1.8" #added based on the suggestion posted here: https://stackoverflow.com/questions/69890412/bundler-failed-to-load-command-jekyll
